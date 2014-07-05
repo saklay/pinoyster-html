@@ -1,0 +1,474 @@
+#dropmenudiv{
+	position:absolute;
+	border:1px solid #FFFFFF;
+	padding:5px;
+	font:normal 11px arial;
+	line-height:18px;
+	z-index:100;	
+}
+
+a {
+	font-size: 11px;
+	font-family: arial, verdana, helvetica;
+	text-decoration: none;
+	color: #003399
+}
+
+a:hover {
+	font-size: 11px;
+	font-family: arial, verdana, helvetica;
+	text-decoration: none;
+	color: #EC2F1E
+}
+
+.logoBG {
+	background-color:#D1EEF8;
+}
+
+.topbarDate {
+	font-family: arial, verdana, helvetica, times new roman;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.copyright {
+	font-family: arial, verdana, helvetica, times new roman;
+	font-size: 12px;
+	line-height: 18px;
+	color: #FFFFFF;
+	margin-left: 50px;
+}
+
+.whiteTextBottomBold {
+	font-family: arial, verdana, helvetica, times new roman;
+	font-size: 12px;
+	line-height: 18px;
+	color: #FFFFFF;
+}
+
+.loginHeaderBG {
+	background-image: url(../shared/login_bg.gif);
+	background-color:#FFFFFF;
+	height: 40px;
+}
+
+.level1BG {
+	background-color:#D7FDFF;
+	border-top: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	border-right: 1px solid #D7FDFF;
+}
+
+.level1DividerBG {
+	background-color:#7FB1F3;
+}
+
+.level1Space {
+	margin-left: 5px;
+	margin-right: 6px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.level1 a {
+	font-size: 11px;
+	font-family: arial, verdana, helvetica;
+	font-weight: bold;
+	text-decoration: none;
+	color: #003399
+}
+
+.level1 a:hover, .level1-sel a {
+	font-size: 11px;
+	font-family: arial, verdana, helvetica;
+	font-weight: bold;
+	text-decoration: none;
+	color: #EC2F1E
+}
+
+.level2BG {
+	background-color:#0075EB;
+	border-top: 1px solid #60A9F3;
+	border-bottom: 1px solid #004993;
+}
+
+.level2MainBG {
+	background-color:#9CC3F6;
+}
+
+.level2SubBG {
+	background-color:#015392;
+}
+
+.level2DividerBG {
+	background-color:#7FB1F3;
+}
+
+.level2 a {
+	font-size: 11px;
+	font-family: arial, verdana, helvetica;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFFFFF
+}
+
+.level2 a:hover, .level2-sel a {
+	font-size: 11px;
+	font-family: arial, verdana, helvetica;
+	font-weight: bold;
+	text-decoration: none;
+	color: #7CFFF2
+}
+
+.level2Space {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+
+.newText {
+	font-size: 11px;
+	font-family: arial, verdana, helvetica;
+	font-weight: bold;
+	color: #FFF200;
+	margin-left: 10px;
+}
+
+.topbarBG {
+	background-color:#D1EEF8;
+}
+
+.headerFooterBG {
+	background-color:#0075EB;
+}
+
+.whiteBorder {
+	background-color: #FFFFFF; 
+	border: 1px #FFFFFF solid;
+}
+
+.blueBorder {
+	background-color: #FFFFFF; 
+	border: 1px #D2E4FC solid;
+}
+
+.purpleBorder {
+	background-color: #F1F1FD; 
+	border: 1px #9B72CF solid;
+}
+
+.tableHeaderBlueBG {
+	background-color: #D2E4FC;
+}
+
+.tableHeaderPurpleBG {
+	background-color: #9B72CF;
+}
+
+.redText {
+	font-family: arial, verdana, helvetica, times new roman;
+	font-size: 11px;
+	line-height: 15px;
+	color: #EC2F1E;	
+}
+
+.blackText {
+	font-family: arial, verdana, helvetica, times new roman;
+	font-size: 11px;
+	line-height: 15px;
+	color: #000000;	
+}
+
+.blueBoldText {
+	font-family: arial, verdana, helvetica, times new roman;
+	font-weight: Bold;
+	font-size: 12px;
+	line-height: 12px;
+	color: #003399;	
+}
+
+.blueText {
+	font-family: arial, verdana, helvetica, times new roman;
+	font-size: 11px;
+	line-height: 15px;
+	color: #003399;	
+}
+
+.blueTextLink a {
+	font-family: arial, verdana, helvetica, times new roman;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 15px;
+	color: #003399;
+}
+
+.blueTextLink a:hover {
+	font-family: arial, verdana, helvetica, times new roman;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 15px;
+	text-decoration: underline;
+	color: #003399;
+}
+
+.bottomLinks a {
+	font-family: arial, verdana, helvetica, times new roman;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 15px;
+	color: #FFFFFF;
+}
+
+.bottomLinks a:hover {
+	font-family: arial, verdana, helvetica, times new roman;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 15px;
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+.redBig a {
+	font-family: arial, verdana, helvetica, times new roman;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #FF0000;
+}
+
+.redBig a:hover {
+	font-family: arial, verdana, helvetica, times new roman;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 15px;
+	text-decoration: underline;
+	color: #003399;
+}
+
+.loginBox{
+	width: 130px;
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	font-size: 8pt;
+	font-style: normal; 
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	color: #000000;
+}
+
+.mSpace10 {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.mHeader15 {
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.mBottom5 {
+	margin-bottom: 5px;
+}
+
+.mBottom10 {
+	margin-bottom: 10px;
+}
+
+.formButton {
+	color: #003399;
+	background-color: #DDEBFD;
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	font-size: 9pt;
+	font-style: normal; 
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	padding: 0 8px 0 8px;
+	border-top: 1px solid #0075EB;
+	border-left: 1px solid #0075EB;
+	border-bottom: 1px solid #0075EB;
+	border-right: 1px solid #0075EB; 	
+	height: 20px;
+	vertical-align: middle;
+	cursor: hand;
+}
+
+.loginFooterBG {
+	background-color: #9CC3F6;
+	padding: 5;
+}
+
+.whiteBG {
+	background-color: #FFFFFF;
+}
+
+.lightBlueBG {
+	background-color: #F2F5F7;
+}
+
+.chatAppletBG {
+	background-color: #C0C0C0;
+}
+
+.onlineUsers {
+	font-family: arial, verdana, helvetica, times new roman;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 15px;
+	color: #003399;	
+}
+
+.memberPopulation {
+	font-family: arial, verdana, helvetica, times new roman;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 15px;
+	color: #003399;	
+}
+
+.faqHeader {
+	font-family: arial, verdana, helvetica, times new roman;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 18px;
+	color: #003399;	
+}
+
+.welcomeHeader {
+	font-family: arial, verdana, helvetica, times new roman;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 18px;
+	color: #003399;	
+}
+
+.headlineHeader {
+	font-family: arial, verdana, helvetica, times new roman;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 18px;
+	color: #0075EB;	
+}
+
+.welcomeContent {
+	font-family: arial, verdana, helvetica, times new roman;
+	font-size: 12px;
+	line-height: 16px;
+	color: #363636;	
+}
+
+.whiteHeaderText {
+	font-family: arial, verdana, helvetica, times new roman;
+	font-size: 12px;
+	line-height: 16px;
+	color: #FFFFFF;	
+}
+
+.memberWelcomeHeader {
+	font-family: arial, verdana, helvetica, times new roman;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 24px;
+	color: #000000;	
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.memberHeader {
+	font-family: arial, verdana, helvetica, times new roman;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 15px;
+	color: #000000;	
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.memberMainLinksBG {
+	background-color:#DDEBFD;
+	border-top: 1px solid #0075EB;
+	border-bottom: 1px solid #0075EB;
+	border-left: 1px solid #0075EB;
+	border-right: 1px solid #0075EB;
+}
+
+.memberMainLinks a {
+	font-size: 11px;
+	font-family: arial, verdana, helvetica;
+	font-weight: bold;
+	text-decoration: none;
+	color: #003399
+}
+
+.memberMainLinks a:hover, .memberMainLinks-sel a {
+	font-size: 11px;
+	font-family: arial, verdana, helvetica;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #003399
+}
+
+.memberLinks a {
+	font-size: 11px;
+	font-family: arial, verdana, helvetica;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #003399
+}
+
+.memberLinks a:hover, .memberLinks-sel a {
+	font-size: 11px;
+	font-family: arial, verdana, helvetica;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #EC2F1E
+}
+
+.memberMainLinksSpace {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.pmContent {
+	font-size: 11px;
+	line-height: 15px;
+	font-family: arial, verdana, helvetica;
+	color: #003399
+}
+
+.pmContentSpace {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.paginationLinks a {
+	font-size: 11px;
+	font-family: arial, verdana, helvetica;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #003399;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.paginationLinks a:hover, .paginationLinks-sel a {
+	text-decoration: underline;
+	color: #EC2F1E
+}
+
+.paginationSpace {
+	margin-left: 2px;
+	margin-right: 2px;
+}
